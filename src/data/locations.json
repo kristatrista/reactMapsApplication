@@ -1,0 +1,21 @@
+[
+  {"name":"Bricks and Scones",
+    "pos":{"lat":34.0191795, "lng":-118.6875929 },
+    "url":"https://google.com"},
+  {"name":"Tilt Coffee Bar",
+    "pos":{"lat":34.0191795, "lng": -118.6875929 },
+    "url":"https://google.com"
+  },
+  {"name":"Blue Bottle Coffee",
+    "pos":{"lat":34.0191795, "lng":-118.6875929},
+    "url":"https://google.com"
+  },
+  {"name":"Seree's Coffee Shop",
+    "pos":{"lat":34.0191795 , "lng":-118.6875929},
+    "url":"https://google.com"
+  },
+  {"name":"Alfred Coffee Melrose Place",
+    "pos":{"lat":34.0191795 , "lng":-118.6875929},
+    "url":"https://google.com"
+    }
+]
