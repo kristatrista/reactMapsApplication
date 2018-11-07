@@ -7,14 +7,21 @@ export class MapContainer extends Component {
   constructor(props) {
     super(props);
     this.state = {
+      map: null,
+      markers: [],
       showingInfoWindow: false,
       activeMarker: {},
+      activeMarkerProps:{},
       selectedPlace: {}
     }
+    console.log('props', this.props)
     // binding this to event-handler functions
     this.onMarkerClick = this.onMarkerClick.bind(this);
     this.onMapClick = this.onMapClick.bind(this);
   }
+  componentDidMount = () =>{
+  }
+
   onMarkerClick = (props, marker, e) => {
     this.setState({
       selectedPlace: props,
@@ -36,6 +43,9 @@ export class MapContainer extends Component {
        height: '75vh',
        'marginLeft': 'auto',
        'marginRight': 'auto'
+     }
+     const center ={
+       lat: this.props.lat, lon: this.props.lon
      }
     return (
       <Map

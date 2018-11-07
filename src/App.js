@@ -10,7 +10,7 @@ import MapContainer from './components/MapContainer'
 class App extends Component {
   state ={
     lat: 34.052235,
-    lng: -118.243683,
+    lon: -118.243683,
     zoom: 13,
     all: locations
   }
