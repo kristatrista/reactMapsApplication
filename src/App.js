@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header><h1>Los Angeles, CA Neighborhoods</h1></header>
+        <header><h1>Los Angeles, CA Coffee Shops</h1></header>
         <MapContainer
         lat={this.state.lat}
         lon={this.state.lon}

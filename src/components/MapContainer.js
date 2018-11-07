@@ -60,13 +60,13 @@ export class MapContainer extends Component {
          onClick = { this.onMarkerClick }
          title = { 'Los Angeles, CA' }
          position = {{ lat: 34.052235, lng: -118.243683}}
-         name = { 'Los Angeles Neighborhoods' }
+         name = { 'Los Angeles Coffee Shops' }
        />
        <InfoWindow
          marker = { this.state.activeMarker }
          visible = { this.state.showingInfoWindow }
        >
-             Los Angles, CA Neighborhoods<br />
+             Los Angles, CA Coffee Shops<br />
              This is a street address <br />
              This is a phone number
 
